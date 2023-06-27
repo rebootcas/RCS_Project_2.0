@@ -1,0 +1,89 @@
+.fourth-container {
+    width: 1440px;
+    height: 679px;
+    flex-shrink: 0;
+    background: #00050E;
+    display: flex;
+    background-image: url('src\assets\images\home_fourth_page_BG.png');
+    display: flex;
+    background-size: 1440px 612px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.text-container {
+    width: 587px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 107px 97px 114px 76px;
+}
+
+.head {
+    width: 588px;
+    justify-content: center;
+    flex-shrink: 0;
+    padding-bottom: 26px;
+
+}
+
+.head p {
+    color: #FFF;
+    font-size: 40px;
+    font-family: Poppins-Bold;
+    font-weight: 700;
+    line-height: 63px;
+    margin: 0;
+    padding: 0;
+}
+
+.para {
+    display: flex;
+    width: 609px;
+    padding-bottom: 87px;
+}
+
+.para p {
+    color: #FFF;
+    font-size: 24px;
+    font-family: Poppins;
+    line-height: 40.706px;
+    margin: 0;
+    padding: 0;
+}
+
+.button-abt button {
+    width: 205px;
+    height: 60px;
+    padding: 16px 5px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 56px;
+    background-color: black;
+    color: #FFF;
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.image-container {
+    width: 853px;
+    height: 679px;
+    display: flex;
+    align-items: center;
+}
+
+.image-container img {
+    width: 635px;
+    height: 576px;
+    padding-left: 21px;
+    padding-bottom: 80px;
+
+}
+
+.highlight{
+    color: #1169FE;
+}
