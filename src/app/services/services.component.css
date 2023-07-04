@@ -11,8 +11,61 @@
 .container {
     color: white;
     padding-top: 218px;
-    padding-left: 171px;
     width: 1226px;
+}
+.insidediv
+{
+    width: 550px; height: 271px; background: rgba(49, 79, 93, 0.74); border-radius: 19px
+}
+
+#cardsmain
+{
+    padding: 0%;
+}
+
+.iconback
+{
+    width: 70px; height: 70px; background: rgba(0, 3.90, 10.82, 0.91); border-radius: 11px;
+    margin-left: 17px;
+    margin-top: 16px;
+}
+
+.headtext
+{
+    color: white; font-size: 20px;  font-weight: 700; line-height: 28px; word-wrap: break-word;margin-left: 22px;
+}
+
+.btndiv
+{
+    width: 153px; 
+    height: 44px; 
+    padding-left: 56px; 
+    padding-right: 56px;
+     padding-top: 16px; 
+     padding-bottom: 16px; 
+     border-radius: 56px; 
+     border-left: 1px white solid; 
+     border-top: 1px white solid; 
+     border-right: 1px white solid; 
+     border-bottom: 1px white solid;
+     margin-left: 30%;
+     margin-top: 9%;  
+}
+.btnname
+{
+    color: white;text-align: justify;
+    margin-left: -20px;
+    width: 80px;
+    font-weight: 800;
+    margin-top: -8px;
+}
+
+.subtext
+{
+    width: 392px; color: white; font-size: 16px; font-family: Poppins; font-weight: 500; line-height: 28px; word-wrap: break-word;
+    text-align: justify;
+    margin-left: 5%;
+    
 }
 
 .main-text {
