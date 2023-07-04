@@ -1,0 +1,130 @@
+
+
+  body{
+   
+    background-color: #000919; /* Specify your desired background color */
+    background-image: url('../../assets/images/home_02.png'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 614px;
+    background-size: cover;
+    margin-top: -0.5%;
+   
+  
+}
+
+  
+  .images 
+  {
+    width: auto;
+    height: 616px;
+  }
+
+  .container h1 {
+    position:absolute;
+    top: 135%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 691px;
+    height: 72px;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .purple-text {
+    color: #9F1EDD;
+  }
+  
+  .white-text {
+    color: white;
+  }
+  
+  .sub-text {
+    position: absolute;
+    top: 145%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 57px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+  } 
+  
+  .services {
+    display: block;
+    margin-top: 20px;
+    position: absolute;
+    top: 150%;
+    gap: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 228px;
+    height: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: 2px solid white;
+    border-radius: 28px;
+    color: white;
+    cursor: pointer;
+    background-color: transparent;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .services:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  @media (max-width: 768px) {
+    .image-container h1 {
+      font-size: 2rem;
+    }
+  
+    .sub-text {
+        font-size: 1.2rem;
+        line-height: 1.2;
+      }
+  
+    .services {
+      font-size: 1rem;
+      max-width: 200px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .image-container h1 {
+      font-size: 1.7rem;
+    }
+  
+    .sub-text {
+        font-size: 1.0rem;
+        line-height: 1.5;
+        word-wrap: break-word;
+
+    }
+  
+    .services {
+      font-size: 0.8rem;
+      max-width: 140px;
+    }
+  }
+  @media (max-width: 300px) {
+    
+    .sub-text {
+      font-size: 1rem;
+      line-height: 1.5;
+      word-wrap: break-word;
+      display: flex;
+      flex-direction: column;
+    }
+  }
